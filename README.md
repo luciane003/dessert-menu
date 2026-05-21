@@ -68,6 +68,7 @@ I plan to integrate React to make the application more dynamic and interactive, 
 Pretendo integrar o React para tornar a aplicação mais dinâmica e interativa, além de aprimorar minhas habilidades como desenvolvedora.
 
 ## 📂 Project Structure
+´´´
 ├── assets/
 │   ├── fonts/
 │   └── images/        # Images used in the application
@@ -82,6 +83,7 @@ Pretendo integrar o React para tornar a aplicação mais dinâmica e interativa,
 ├── data.json
 ├── index.html
 ├── README.md
+´´´
 
 ## 👩‍🦰 Author
 - Luciane Kellen
