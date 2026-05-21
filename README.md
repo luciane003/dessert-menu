@@ -9,9 +9,9 @@ A dessert ordering website that allowns users to browse and place orders quickly
 Um site de pedidos de sobremesas que permite ao usuário escolher e realizar pedidos de forma rápida, fácil e prática.
 
 ## 🧷​ Links
-![Respository]()
+[Respository](https://github.com/luciane003/dessert-menu/edit)
 
-![Website]()
+[Website](https://luciane003.github.io/dessert-menu/)
 
 ## ​📸​ Screenshot
 
@@ -85,7 +85,7 @@ Pretendo integrar o React para tornar a aplicação mais dinâmica e interativa,
 
 ## 👩‍🦰 Author
 - Luciane Kellen
-- ![GitHub:](https://github.com/luciane003/) 
+- [GitHub:](https://github.com/luciane003/) 
 
 ### 🇺🇸 English
 💬 Aspiring front-end developer dedicated to improving my skills and building practical projects.
