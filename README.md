@@ -14,7 +14,14 @@ Um site de pedidos de sobremesas que permite ao usuário escolher e realizar ped
 ![Website]()
 
 ## ​📸​ Screenshot
-![Project view](./design/gif-presentation/gif-presentation.gif)
+
+<p align="center">
+  <img src="./preview/preview-01.png" width="250">
+  &nbsp;
+  <img src="./preview/preview-02.png" width="250">
+  &nbsp;
+  <img src="./preview/preview-03.png" width="250">
+</p>
 
 ## ​🛠️​ Built with
 <p>
@@ -68,9 +75,9 @@ Pretendo integrar o React para tornar a aplicação mais dinâmica e interativa,
 │   ├── reset.css
 │   ├── responsive.css
 │   └── style.css
-├── design/            # Design reference files (provided by Programathor)
 ├── js/
 │   └── index.js
+├── preview 
 ├── .gitignore
 ├── data.json
 ├── index.html
@@ -84,4 +91,4 @@ Pretendo integrar o React para tornar a aplicação mais dinâmica e interativa,
 💬 Aspiring front-end developer dedicated to improving my skills and building practical projects.
 
 ### 🇧🇷 Português
-💬 Desenvolvedora front-end em formação, dedicada a aprimorar minhas habilidades e criar projetos práticos.
+💬 Desenvolvedora front-end, dedicada a aprimorar minhas habilidades e criar projetos práticos.
