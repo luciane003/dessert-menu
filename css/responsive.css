@@ -1,0 +1,153 @@
+@media (max-width: 1280px) {
+    .cart-section {
+        margin-right: 1rem;
+    }
+}
+@media(max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desserts-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desserts-title {
+        padding-left: 0;
+    }
+
+    .cart-section {
+        align-self: auto;
+        width: 50rem;
+        margin-right: 0; 
+    }
+}
+
+@media(max-width: 915px) {
+    .desserts-title {
+        padding-left: 0;
+        font-size: 3rem;
+    }
+
+    .desserts-header,
+    .products-section,
+    .cards-container {
+        width: 100vw;
+    }
+
+    .cards-container {
+        gap: 3rem;
+    }
+
+    .cart-section {
+        width: 47rem;
+    }
+}
+
+@media(max-width:821px) {
+    .cards-container {
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 770px) {
+    .cards-container {
+        gap: 0.50rem;
+    }
+}
+
+@media(max-width: 541px) {
+    .desserts-title {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 14rem;
+        align-items: center;
+    }
+
+
+    .cart-section {
+        width: 33rem;
+    }
+
+    .cart-actions {
+        bottom: 25%;
+        left: 47%;  
+    }
+
+    .cart-actions.active {
+        width: 8rem;
+        left: 50%;
+    }
+
+    .add-to-cart-button {
+        width: 8rem;
+    }
+
+    .dessert-category {
+        padding-top: 2rem;
+    }
+
+    .dessert-name {
+        font-size: 0.90rem;
+    }
+
+    .carbon-neutral-info {
+        padding: 0.5rem 0 0.5rem 1.05rem;
+    }
+}
+
+@media(max-width: 435px) {
+    main {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .cart-section {
+        width: 100%;
+    }
+
+    .section-cart.empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .attribution {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1.05rem;
+    } 
+}
+
+@media(max-width: 365px) {
+    .confirmed-item-total {
+        font-size: 0.8rem;
+    }
+
+    .new-order-button {
+        width: 18rem;
+    }
+
+    .attribution {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 378px) {
+    .confirmation-modal {
+        width: 22.5rem;
+    }
+
+    .confirmed-item-total {
+        font-size: 0.9rem;
+    }
+
+    .new-order-button {
+        width: 20rem;
+    }
+}

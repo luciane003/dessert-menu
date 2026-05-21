@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+  <title>OrderFlow JS | Sistema de Pedidos</title>
+</head>
+
+<body>
+  <main>
+    <section class="products-section">
+      <header class="desserts-header">
+        <h1 class="desserts-title">Desserts</h1>
+      </header>
+
+      <div class="cards-container"></div>
+    </section>
+
+    <section class="cart-section">
+      <h2 class="cart-title"></h2>
+      <img src="./assets/images/illustration-empty-cart.svg" alt="Empty cart" class="empty-image">
+      <p class="empty-cart-text">Your added items will appear</p>
+      <div class="cart-items"></div>
+      <div class="cart-total"></div>
+    </section>
+
+    <div class="overlay"></div>
+
+    <section class="confirmation-modal">
+      <img src="./assets/images/icon-order-confirmed.svg" alt="confirmed order image" class="confirmed-image">
+      <h2 class="confirmed-title">Order Confirmed</h2>
+      <p class="confirmed-text">We hope you enjoy your food</p>
+      <div class="confirmation-content">
+        <div class="confirmed-items"></div>
+        <div class="confirmed-total-price"></div>
+      </div>  
+      <button class="new-order-button">
+        Start New Order
+      </button>
+    </section>
+
+    <div class="floating-message">Oops, something went wrong. Please try again.</div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Luciane Kellen</a>.
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
